@@ -23,7 +23,19 @@ ChartJS.register(
 )
 
 export const LineGraph = () => {
-  const options = {}
+  const options = {
+    responsive: true,
+    plugins: {
+      legend: {
+        position: "top",
+      },
+      title: {
+        text: "This is an example line graph using ChartJS",
+        display: true,
+        postion: "bottom",
+      },
+    }
+  }
   const data = {}
   return <Line options={options} data={lineChartData} />
 }

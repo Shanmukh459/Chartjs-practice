@@ -6,9 +6,9 @@ import { PieChart } from './components/Pie';
 function App() {
   return (
     <div className="App">
-      {/* <LineGraph /> */}
+      <LineGraph />
       {/* <BarChart /> */}
-      <PieChart />
+      {/* <PieChart /> */}
     </div>
   );
 }
